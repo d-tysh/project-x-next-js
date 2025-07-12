@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     default: ''
   },
   description: "Blog styled like X.com",
+  icons: {
+    icon: '/x_logo.svg'
+  }
 };
 
 export default function RootLayout({
