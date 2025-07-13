@@ -11,7 +11,7 @@ export default async function ShopSSGPage() {
     const products = (await response.json()) as IProduct[];
     return (
         <>
-                <h1 className="text-3xl font-bold mb-6">SSG</h1>
+                <h2 className="text-2xl font-bold mb-6">SSG</h2>
                 <div className="flex flex-wrap gap-4 justify-center">
                     {
                         products.map(product => (
